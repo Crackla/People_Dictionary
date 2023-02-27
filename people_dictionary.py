@@ -37,7 +37,7 @@ def address_search():
 
 
 def change():
-    change_input = input("name of the person: ")
+    change_input = input("change the data of: ")
     for name, value in dictionary.items():
         if change_input == name:
             print(dictionary[name])
@@ -69,5 +69,3 @@ while True:
             age_search()
         if "address" in search_input:
             address_search()
-
-            
