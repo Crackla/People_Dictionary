@@ -62,7 +62,7 @@ while True:
     if "change" in command:
         change()
     if "search" in command:
-        search_input = str(input("search for: "))
+        search_input = input("search for: ")
         if "name" in search_input:
             name_search()
         if "age" in search_input:
